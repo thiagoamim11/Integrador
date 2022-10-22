@@ -3,7 +3,7 @@ import { SafeAreaView, StyleSheet, TextInput, View } from "react-native";
 
 const input = () => {
   
-  const [text, onChangeText] = React.useState("email@123.com");
+  const [text, onChangeText] = React.useState(null);
   const [number, onChangeNumber] = React.useState(null);
   
   return (
@@ -12,7 +12,9 @@ const input = () => {
         style={estilos.input}
         onChangeText={onChangeText}
         value={text}
-        
+        placeholder="exemplo@email.com"
+        keyboardType="text"
+
       
       />
 

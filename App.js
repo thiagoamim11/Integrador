@@ -1,10 +1,8 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, Image } from 'react-native';
 import Reactnp from 'react';
-import Header from './src/componentes/Header';
-import Body from './src/componentes/Body';
-import Input from './src/componentes/Input'
-import Botao from './src/componentes/botao';
+import Principal from './src/login/principal';
+
 
 
 export default function App() {
@@ -17,10 +15,7 @@ export default function App() {
      
      
     	<StatusBar/>
-       <Header/>
-      <Body/>
-      <Input/>
-      <Botao/>
+      <Principal/>
     </View>
     
   );
