@@ -1,11 +1,11 @@
 import React from 'react';
-import { StyleSheet, Button, View, SafeAreaView, Text, Alert } from 'react-native';
+import { StyleSheet, Button, View, SafeAreaView, Text, Alert} from 'react-native';
 
 const Separator = () => (
   <View style={styles.separator} />
 );
 
-const Botao = () => (
+const Avançar = () => (
   <SafeAreaView style={styles.container}>
     <View>
       <Text style={styles.title}>
@@ -14,7 +14,7 @@ const Botao = () => (
       
       <Button style={styles.botao}
         title="Entrar"
-        onPress={() => Alert.alert('LOGOU')}
+        onPress={() => Alert.alert('AVANÇAR')}
       />
 
 
@@ -58,4 +58,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default Botao;
+export default Avançar;

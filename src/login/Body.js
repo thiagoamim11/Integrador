@@ -9,6 +9,7 @@ const Body = () => {
         <View style={estilos.container}>
             
             <Text style={estilos.login}>Usuario</Text>
+            
         </View>
       
 
