@@ -13,7 +13,7 @@ export default function App() {
     
     
     <View>
-     <Texto>git</Texto>
+     
      
      
     	<StatusBar/>
