@@ -23,7 +23,9 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
+        "backgroundColor": "#FFFFFF",
+        "pakage": "com.thiagoamim.projeto1",
+        "versionCode": 1
       }
     },
     "web": {
