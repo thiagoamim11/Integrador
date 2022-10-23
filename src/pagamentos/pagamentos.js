@@ -46,7 +46,7 @@ const estilos = StyleSheet.create ({
     },
 
     texto: {
-        marginLeft: 15
-    }
-})
+        marginLeft: 15,
+    },
+});
 

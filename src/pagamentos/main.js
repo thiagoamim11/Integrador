@@ -1,8 +1,7 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, Image } from 'react-native';
-import Reactnp from 'react';
 import React from 'react';
-import Pagamentos from './src/pagamentos/pagamentos';
+import Pagamentos from './pagamentos'
 
 
 export default function Main() {
