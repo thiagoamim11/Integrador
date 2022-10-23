@@ -1,61 +1,46 @@
 import React from 'react';
 import { StyleSheet, Button, View, SafeAreaView, Text, Alert} from 'react-native';
 
-const Separator = () => (
-  <View style={styles.separator} />
-);
-
 const Avançar = () => (
-  <SafeAreaView style={styles.container}>
-    <View>
-      <Text style={styles.title}>
-       
-      </Text>
-      
-      <Button style={styles.botao}
-        title="AVANÇAR"
-        onPress={() => Alert.alert('AVANÇAR')}
+  
+    <View style={estilo.container}>
+
+      <View style={estilo.esquerdo}>
+      <Button
+         title="Avançar"
+         color='green'
+
+        onPress={() => Alert.alert('AVANÇAR!')}
       />
+        </View>
 
+      <View style={estilo.direito}>
+        <Button
+        title="Voltar"
+        color="red"
 
-    </View>
-    
-   
-  </SafeAreaView>
+        onPress={() => Alert.alert('VOLTOU!')}
+      
+        />
+
+         </View>
+      </View>
+
+     
+      
+ 
 );
 
-const styles = StyleSheet.create({
-  container: {
-    
-    justifyContent: 'center',
-    marginHorizontal: 16,
-    marginBottom: -160,
-    display: "flex",
-    height: 10,
-    
-    
-  },
+const estilo = StyleSheet.create({
 
- 
+ direito:{left:'100%'},
+ esquerdo:{right:'10%'},
+ container:{width:'35%'}
 
-  title: {
-    textAlign: 'center',
-    marginVertical: 8,
-    
-    
-  },
-  fixToText: {
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-    
-    
-  },
-  separator: {
-    marginVertical: 8,
-    borderBottomColor: '#737373',
-    borderBottomWidth: StyleSheet.hairlineWidth,
-    
-  },
 });
+
+
+
+
 
 export default Avançar;

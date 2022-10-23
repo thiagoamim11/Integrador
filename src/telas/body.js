@@ -1,6 +1,6 @@
 import { StyleSheet, Text, View, Image, SafeAreaView,Button } from 'react-native';
-import Avançar from "./Avançar"
-import SelectProd from "./SelectProd"
+import Avançar from './Avançar';
+import SelectProd from './SelectProd';
 
 const Body = () => {
     return (
@@ -8,6 +8,7 @@ const Body = () => {
             
             <SelectProd/>
             <Avançar/>
+            
         </SafeAreaView>    
     );
 }

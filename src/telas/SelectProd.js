@@ -1,6 +1,6 @@
 import React from "react";
 import { StyleSheet, Text, View, Image,Button } from 'react-native';
-//import Avançar from './componets/Avançar';
+//import Avançar from "./Avançar";
 
 
 const SelectProd = () => {
@@ -8,8 +8,9 @@ const SelectProd = () => {
 
         <View style={estilos.container}>
             
+            
             <Text style={estilos.seleção}>Seleção de Produto</Text>
-
+            
         </View>
 
         
@@ -20,9 +21,9 @@ const SelectProd = () => {
 const estilos = StyleSheet.create({
     seleção: {
         display: 'flex',
-        paddingLeft: 15,
-        marginBottom: 0,
+        paddingLeft: 20,
         fontSize: 15,
+        marginTop: -30,
            
     },
 
