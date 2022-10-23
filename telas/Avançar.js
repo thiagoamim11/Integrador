@@ -13,7 +13,7 @@ const Avançar = () => (
       </Text>
       
       <Button style={styles.botao}
-        title="Entrar"
+        title="AVANÇAR"
         onPress={() => Alert.alert('AVANÇAR')}
       />
 
