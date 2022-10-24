@@ -34,6 +34,7 @@ const estilo = StyleSheet.create({
 
 direito : {
   
+  
 
 },
 
@@ -42,13 +43,14 @@ direito : {
   paddingRight:190,
   
   
+  
  },
 
  container : {
  justifyContent:'center',
  marginHorizontal:16,
  flexDirection:'row-reverse',
- marginVertical:600,
+ marginVertical:650,
  
  
  },

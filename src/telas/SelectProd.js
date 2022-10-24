@@ -7,13 +7,10 @@ const SelectProd = () => {
     return(
 
         <View style={estilos.container}>
-            
-            
-            <Text style={estilos.seleção}>Seleção de Produto</Text>
-            
-        </View>
-
         
+            <Text style={estilos.seleção}>Seleção de Produto</Text>
+    
+        </View>
 
     );
 }
@@ -21,16 +18,17 @@ const SelectProd = () => {
 const estilos = StyleSheet.create({
     seleção: {
         display: 'flex',
+        alignContent:'center',
         paddingLeft: 20,
-        fontSize: 15,
-        marginTop: -30,
-           
+        fontSize: 20,
+        marginTop: -30,   
     },
 
     container: {
         display: "flex",
         paddingTop: 80,
-    }
+    },
+    
 
 });
 
