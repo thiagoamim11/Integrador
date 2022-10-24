@@ -7,7 +7,7 @@ const Avançar = () => (
 
       <View style={estilo.direito}>
       <Button
-         title="Avançar"
+        title='Avançar'
          color='green'
          onPress={() => Alert.alert('AVANÇAR!')}
          />
@@ -35,24 +35,19 @@ const estilo = StyleSheet.create({
 direito : {
   
   
-
 },
 
  esquerdo : {
   
   paddingRight:190,
-  
-  
-  
+ 
  },
 
  container : {
  justifyContent:'center',
  marginHorizontal:16,
  flexDirection:'row-reverse',
- marginVertical:650,
- 
- 
+ marginTop:550,
  },
 
   
