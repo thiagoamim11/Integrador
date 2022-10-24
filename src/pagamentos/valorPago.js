@@ -47,7 +47,8 @@ const estilos = StyleSheet.create({
         fontSize: 20,
         paddingVertical: 17,
         paddingLeft: 15,
-        
+        color: 'green',
+        fontWeight: 'bold'
     }
 
 });
