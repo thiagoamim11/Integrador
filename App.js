@@ -14,13 +14,13 @@ export default function App() {
    
     <View>
      
-
+         {/*<Principal/>*/}
       
-      <Body/>
+         <Body/> 
      
-        {/*
-       <Main/>
-        */}
+        
+       {/*<Main/>*/}
+        
 
          
       </View> 
